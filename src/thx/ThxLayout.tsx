@@ -9,8 +9,8 @@ export const ThxLayout = () => {
         <div className={thxSt.box}>
           <img src={rocket} width={48} height={48} />
         </div>
-        <Typography.TitleResponsive font="system" tag="h1" view="small" defaultMargins weight="bold">
-          Спасибо за участие
+        <Typography.TitleResponsive font="system" tag="h1" view="large" defaultMargins weight="bold">
+          Ваши интересы — наше вдохновение
         </Typography.TitleResponsive>
         <Typography.Text tag="p" view="primary-medium" defaultMargins={false}>
           Мы проводим исследование для нового сервиса. Скоро расскажем о нём подробнее, следите за новостями!
